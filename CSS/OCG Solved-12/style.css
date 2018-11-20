@@ -1,0 +1,133 @@
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading-primary {
+  text-align: center;
+  text-shadow: 0 2rem 3rem rgba(0,0,0,.5);
+  font-size: 3rem;
+}
+
+.heading-sub {
+  font-size: 2.5rem;
+  text-align: center;
+  color: seagreen;
+  display: none;
+}
+
+.about {
+  margin-top: 5rem;
+}
+
+.about__box--center {
+  width: 40%;
+  margin: auto;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 3px;
+  border: solid 2px black;
+}
+
+.btn {
+  margin: 2rem auto;
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  background-color: rgb(93, 151, 216);
+  color: white;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  transition: .2s;
+  
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 .5rem .7rem rgba(0,0,0,.2);
+}
+
+.btn:active,
+.btn:focus {
+  transform: translateY(1px);
+  outline: none;
+  box-shadow: 0 .2rem .4rem rgba(0,0,0,.2);
+}
+
+@media (max-width: 1200px) {
+
+  html {
+    font-size: 55%;
+  }
+
+  .heading-primary {
+    color: blue;
+  }
+
+  .about__box--center {
+    background-color: orangered;
+    color: white;
+    border: 5px solid purple;
+    width: 60%;
+  }
+  
+}
+
+
+@media (max-width: 900px) {
+
+  html {
+    font-size: 45%;
+  }
+
+  .heading-primary {
+    color: purple;
+  }
+
+  .btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) ;
+    top: 8rem;
+    padding: 5px;
+    background-color: palegreen;
+  }
+
+  .btn:hover {
+    transform: translateX(-50%) translateY(-1px);
+    background-color: lightblue;
+  }
+
+  .btn:active,
+  .btn:focus {
+    transform: translateX(-50%) translateY(1px);
+  }
+
+  .about__box--center {
+    background-color: teal;
+    color: white;
+    border: 10px solid orange;
+    width: 90%;
+  }
+
+  .heading-sub {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-family: fantasy;
+    background-image: linear-gradient(to right bottom,aqua, white);
+  }
+
+  .heading-primary {
+    color: white;
+  }
+}
