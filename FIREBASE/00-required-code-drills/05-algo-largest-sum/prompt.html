@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Largest sum</title>
+</head>
+<body>
+
+
+  <script>
+    var array = [1, 2, 4, 5, 9, 7, 16, 12, 20]
+
+    function largestSum(arr) {
+    // ====================== YOUR WORK HERE ===================
+
+
+    function largestSum(arr) {
+      
+      var largest = 0;
+      var secondLargest = 0;
+
+      for (var i = 0 ; i < arr.length + 1 ; i++) {
+
+        if (arr[i] > largest) {
+          secondLargest = largest
+          largest = arr[i]
+        
+        } else if (arr[i] > secondLargest) {
+          secondLargest = arr[i]
+        }
+      }
+
+      var sum = largest + secondLargest
+      return sum
+
+
+    // =========================================================
+  }
+
+
+console.log(largestSum(array))
+  </script>
+  
+</body>
+</html>
