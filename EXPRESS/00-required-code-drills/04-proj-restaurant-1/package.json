@@ -1,0 +1,19 @@
+{
+  "name": "04-proj-restaurant-1",
+  "version": "1.0.0",
+  "description": "Express Code Drills",
+  "main": "server.js",
+  "scripts": {
+    "test": "Express 04",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Code Drills"
+  },
+  "keywords": [
+    "HW"
+  ],
+  "author": "Charles Gedeon",
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "05-proj-restaurant-2",
+  "version": "1.0.0",
+  "description": "Code Drill 05",
+  "main": "server.js",
+  "scripts": {
+    "test": "HW",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Code Drills"
+  },
+  "keywords": [
+    "HW"
+  ],
+  "author": "Charles Gedeon",
+  "license": "MIT"
+}
